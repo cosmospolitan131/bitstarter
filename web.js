@@ -16,4 +16,4 @@ var fs = require('fs');
 var buffer = fs.readFileSync('index.html','utf8')
 console.log(buffer);
 
-var text= buf.toString('utf8');
+var text= buffer.toString("utf8");
